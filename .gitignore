@@ -1,0 +1,5 @@
+.venv
+.python-version
+.env
+latest_response.json
+__pycache__
