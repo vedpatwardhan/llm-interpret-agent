@@ -54,6 +54,8 @@ uv run main.py
 
 ![attribution](attribution.png)
 
+(The localhost url for this particular graph is [here](http://localhost:8046/?slug=gemma-michael-jordan-es&clerps=%5B%5D&pinnedIds=2_2808_3%2C0_14975_3%2C15_15208_6%2C6_7377_5%2C23_14713_6%2C0_8003_4%2C2_13198_4%2C23_5458_6%2C24_3018_6%2C1_8628_6%2C6_7157_5%2C23_8855_6%2C3_4335_3%2C21_4818_6%2C4_14954_6%2C1_15876_6%2C21_9324_6%2C1_1173_4%2C24_3865_6%2C2_10957_6%2C4_1305_6%2C25_13416_6%2C3_14567_6%2C17_10384_6%2C18_6953_4%2CE_7939_3%2CE_18853_4%2CE_113501_5%2CE_717_6%2C27_143831_6&supernodes=%5B%5B%22Recognizing+Michael+Jordan+and+the+concept+of+playing+sports%22%2C+%222_2808_3%22%2C+%220_14975_3%22%2C+%2215_15208_6%22%5D%2C%5B%22Language+and+context+processing%22%2C+%226_7377_5%22%2C+%2223_14713_6%22%2C+%220_8003_4%22%5D%2C%5B%22Tangential+or+indirectly+related+concepts%22%2C+%222_13198_4%22%5D%2C%5B%22Recognizing+Sports+Vocabulary+and+Related+Terms%22%2C+%2223_5458_6%22%5D%2C%5B%22Listing+and+Categorizing+Sports%22%2C+%2224_3018_6%22%2C+%221_8628_6%22%5D%2C%5B%22Identify+Michael+Jordan*s+Sport%22%2C+%226_7157_5%22%2C+%2223_8855_6%22%2C+%223_4335_3%22%2C+%2221_4818_6%22%2C+%224_14954_6%22%5D%2C%5B%22List+Related+Sports%22%2C+%221_15876_6%22%5D%2C%5B%22Core+Concept+Recognition%22%2C+%2221_9324_6%22%2C+%221_1173_4%22%5D%2C%5B%22Sports+and+Related+Activities%22%2C+%2224_3865_6%22%2C+%222_10957_6%22%2C+%224_1305_6%22%2C+%2225_13416_6%22%2C+%223_14567_6%22%5D%2C%5B%22Linguistic+and+Contextual+Clues%22%2C+%2217_10384_6%22%2C+%2218_6953_4%22%5D%5D&clickedId=2_2808_3))
+
 
 ### Use-Case
 
