@@ -1,4 +1,3 @@
-import sys
 import json
 from utils import (
     get_all_relatedness,
@@ -27,7 +26,7 @@ The goal here for me is to understand how the model manipulates the response acr
     store_nodes_and_examples(graph_data, start_links, end_links, overall_goal)
 
     nodes = get_all_relatedness(graph)
-    with open(f"circuit-tracer/{graph}/relatedness.json", "w") as f:
+    with open(f"{graph}/relatedness.json", "w") as f:
         json.dump(nodes, f)
 
     final_groups = recursive_grouping(nodes)
@@ -36,7 +35,7 @@ The goal here for me is to understand how the model manipulates the response acr
     for group in final_groups:
         for node in group["nodes"]:
             classified_nodes.append(node)
-    with open(f"circuit-tracer/{graph}/classified_nodes.json", "w") as f:
+    with open(f"{graph}/classified_nodes.json", "w") as f:
         json.dump(classified_nodes, f)
 
     url = get_url(graph, classified_nodes)

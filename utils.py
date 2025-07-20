@@ -179,7 +179,7 @@ def classify_nodes(
     nodes = list(filter(lambda node: node["final_verdict"] != "NOT RELATED", nodes))
 
     # load prompt, output and the overall goal
-    with open(f"circuit-tracer/{graph}/metadata.json") as f:
+    with open(f"{graph}/metadata.json") as f:
         graph = json.load(f)
         prompt, output, overall_goal = (
             graph["prompt"],

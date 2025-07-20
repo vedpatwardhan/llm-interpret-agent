@@ -43,6 +43,8 @@ Then identify the input and output nodes you care about along with the overall g
 uv run main.py
 ```
 
+Once done, it will output a url where you can view the grouping (provided the circuit-tracer server is running).
+
 
 ### General Idea
 

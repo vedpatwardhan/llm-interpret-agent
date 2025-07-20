@@ -32,11 +32,11 @@ def rate_limit_completion(fn, *args, **kwargs):
 
 
 def get_relatedness(graph: str, feature_id: str):
-    with open(f"circuit-tracer/{graph}/{feature_id}.json") as f:
+    with open(f"{graph}/{feature_id}.json") as f:
         feature = json.load(f)
     examples = feature.get("examples", [])
 
-    with open(f"circuit-tracer/{graph}/metadata.json") as f:
+    with open(f"{graph}/metadata.json") as f:
         data = json.load(f)
         prompt, output = data["prompt"], data["output"]
 
@@ -87,7 +87,7 @@ def get_grouping(graph: str, nodes: list[dict[str, str]], current_group: str):
     nodes = list(filter(lambda node: node["final_verdict"] != "NOT RELATED", nodes))
 
     # load prompt, output and the overall goal
-    with open(f"circuit-tracer/{graph}/metadata.json") as f:
+    with open(f"{graph}/metadata.json") as f:
         data = json.load(f)
         prompt, output, overall_goal = (
             data["prompt"],
