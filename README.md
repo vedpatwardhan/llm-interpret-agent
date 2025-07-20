@@ -10,9 +10,9 @@ An LLM-powered agent designed to streamline and enhance the process of discoveri
 ```
 git clone https://github.com/vedpatwardhan/llm-interpret-agent.git
 cd llm-interpret-agent
-git submodule update --init
 uv venv
 uv sync
+git submodule update --init
 cd circuit-tracer
 mkdir graph_files
 cp graph-metadata.json circuit-tracer/graph_files
