@@ -21,7 +21,7 @@ uv pip install -e circuit_tracer
 
 #### Generate graph from Neuronpedia
 
-Go to [Neuronpedia](https://www.neuronpedia.org/), generate a new graph or use an existing graph, and download the json for it into the `circuit-tracer/graph_files` folder.
+Go to [Neuronpedia](https://www.neuronpedia.org/), generate a new graph or use an existing graph, and download the json for it into the `circuit-tracer/graph_files` folder (through the `Graph Info` option).
 
 Then copy over the "metadata" in the downloaded json to the `circuit-tracer/graph_files/graph-metadata.json` as a list item under `"graphs"`.
 
